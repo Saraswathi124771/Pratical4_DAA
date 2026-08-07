@@ -1,0 +1,11 @@
+def factorial_recursive(n):
+    # Base case
+    if n == 0 or n == 1:
+        return 1
+    else:
+        # Recursive case
+        return n * factorial_recursive(n - 1)
+
+# Example usage
+n = 7
+print(f"Factorial of {n} is: {factorial_recursive(n)}")
